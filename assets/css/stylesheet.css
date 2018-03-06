@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'District Pro';
+    src: url('fonts/DistrictPro-Thin.woff2') format('woff2'),
+        url('fonts/DistrictPro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+* {
+	font-family: 'District Pro';
+    font-weight: 100;
+    font-style: normal;
+}
+body {
+	background-color: #fcfcfc;
+	color: #919191;
+}
+
+.text-muted {
+	color: #919191 !important;
+}
+.bg-dark {
+	background-color: #fcfcfc!important;
+}
+.card {
+	border: 0px solid rgba(0,0,0,.125);
+}
+.jumbotron {
+	background-color: #fcfcfc
+}
+.bg-light {
+	background-color: #fcfcfc !important;
+}
+.video-responsive{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.video-responsive iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+
+	max-height: 500px;
+}
+
