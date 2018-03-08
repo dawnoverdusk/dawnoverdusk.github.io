@@ -1,4 +1,3 @@
-<!-- TO DO: Add index things for Google or what not.-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,54 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <!-- TODO: social meta tags.-->
   <link rel="icon" href="assets/images/favicon.ico">
-<!-- TO DO: Can't get the favicon to work, need to investigate why. -->
   <title>Tom Coe | 3D Artist</title>
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/fontawesome-all.min.css" rel="stylesheet">
   <link href="assets/css/stylesheet.css" rel="stylesheet">
+  <style type="text/css">
 
-  <style type="text/css">  
   </style>
 </head>
-<body>
+<body class="container">
+
+<header>
+  <div id="logo" class="col-4 mx-auto d-flex justify-content-center flex-wrap">
+    <div>
+      <h1 style="display:none;">Tom Coe</h1>
+      <img src="assets/images/logo.png" alt="3d guy" title="3d guy">
+    </div>
+  </div>
+</header>
 
 <main role="main">
 
-  <section class="jumbotron text-center">
+  <section class="text-center">
     <div class="container">
-      <h1>TOM COE</h1>
-<!-- TO DO: Perhaps add in some code so that I can put a banner (logo+name) here in place of text. I've added the one taken from that portfolio I've like for a temp job.-->
-      <p>
-        <a href="https://www.linkedin.com/in/tom-coe-68ab94146/" target="_blank" class="btn btn-primary my-2">LinkedIn</a>
-        <a href="https://docs.google.com/document/d/1gOWPiZvxDGbxt5NRO704eFR8waG3KLR-aNrKaEjsps8/edit?usp=sharing" target="_blank" class="btn btn-secondary my-2">CV</a>
-        <a href="tom@dawnoverdusk.com" target="_blank" class="btn btn-secondary my-2">Email</a>
-<!-- TO DO: Add in nicer svg files to represent LinkedIn, CV and Email, the images being same colour as font. Will upload into folder. Perhaps hovering over them will provide a tooltip as to what they are (document svg > View My CV). Got to fix Email so it does the thing that prompts you to open email or whatever.-->
-      </p>
+        <a title="skills" alt="LinkedIn" href="https://www.linkedin.com/in/tom-coe-68ab94146/" target="_blank" class="btn my-2"><i class="fab fa-linkedin-in"></i></a>
+        <a title="about me" alt="cv" href="https://docs.google.com/document/d/1gOWPiZvxDGbxt5NRO704eFR8waG3KLR-aNrKaEjsps8/edit?usp=sharing" target="_blank" class="btn my-2"><i class="fas fa-file"></i></a>
+        <a title="deets" alt="email" href="mailto:tom@dawnoverdusk.com" class="btn my-2"><i class="fas fa-envelope"></i></a>
+        <a title="call now" alt="phone" href="tel:123-456-7890" class="btn my-2"><i class="fas fa-phone"></i></a>
     </div>
   </section>
 
-  <div class="container">
-    <h3>3D ARTIST REEL</h3>
-<!-- TO DO: I want the title here to be centered on the video-->
+  <!-- @TOM so each video you make is an article. copy/paste an article and fill in the bits you need -->
+  <article class="container">
+    <div class="text-center"><h3>3D ARTIST REEL</h3></div>
     <div class="row">
-      <div class="col-md-12">
-        <div class="card-body video-responsive">
-        <iframe src="https://player.vimeo.com/video/226611180" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-<!-- TO DO: I would like to have the option of putting some descriptive text here, below the video aligned to the left in line with the video frame-->
-        </div>
+      <div class="col-md-12">  
+      <div class="card-body video-responsive">
+        <iframe src="https://player.vimeo.com/video/226611180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
+      <p>here is some text about the video<p>
     </div>
-  </div>
-<!-- TO DO: The above container should hopefully be able to just be copied and pasted so that if i wish to add more videos to the page, it should be easier to do so. -->
-<!-- TO DO: This is where I'd like to put a brief bio, aligned to the left, scaling with the edge of the video. Just fill with lorem ipsum for now. Perhaps a very small amount of veritcal padding from the video.-->
+    </div>
+  </article>
+
+
+
+
+
 </main>
+
+<div class='container bio'>
+  <img src="https://loremflickr.com/90/160" alt="profile image">
+  <h3>Bio</h3>
+  <p class='blurb'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</div>
 
 <footer class="text-muted">
   <div class="container">
-    <p class="float-left">
-<!-- TO DO: Perhaps have the alignment of the Copyright match the leftmost of the video, same with all left aligned text-->
-    <a>© 2018 Tom Coe. All rights reserved.</a>
+    <sub>© 2018 Tom Coe. All rights reserved.</sub>
   </div>
 </footer>
 

@@ -7,29 +7,29 @@
 }
 * {
 	font-family: 'District Pro';
-    font-weight: 100;
-    font-style: normal;
+	font-weight: 100;
+	font-style: normal;
 }
 body {
 	background-color: #fcfcfc;
 	color: #919191;
 }
-
+figure {
+	float: left;
+}
+article {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+footer {
+	margin-bottom: 20px;
+}
+/* @TOM this will set the color of your icons. you can put a hex */
+section a {
+	color:black;
+}
 .text-muted {
-	color: #919191 !important;
-}
-.bg-dark {
-	background-color: #fcfcfc!important;
-}
-.card {
-	border: 0px solid rgba(0,0,0,.125);
-}
-.jumbotron {
-	background-color: #fcfcfc;
-	margin-bottom: 0px;
-}
-.bg-light {
-	background-color: #fcfcfc !important;
+	color: #919191;
 }
 .video-responsive{
 	overflow:hidden;
@@ -44,6 +44,37 @@ body {
 	width:100%;
 	position:absolute;
 
-	max-height: 500px;
+	/*max-height: 500px;*/
+}
+.bio {
+	margin-top: 40px;
+	margin-right: 20px auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.bio img {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.bio .blurb {
+	margin: 20px;
+}
+#logo img {
+	width: 300px;
 }
 
+/* @TOM - if you're going to add any css. put it ABOVE these media queries. These have to happen last */
+@media only screen and (max-width: 1280px){
+}
+@media only screen and (max-width: 992px){ 
+}
+@media only screen and (max-width: 768px){
+}
+@media only screen and (max-width: 480px){
+  #logo img {
+    width: 250px;
+  }
+}
