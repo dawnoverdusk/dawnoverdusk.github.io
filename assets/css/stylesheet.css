@@ -56,9 +56,10 @@ section a {
 	float: left;
 	/*width: 200px;*/
 	/*height: 200px;*/
-	max-width: 200px;
+	max-width: 380px;
 	margin-right: 20px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 .bio .blurb {
 	margin: 20px;
@@ -84,7 +85,17 @@ section a {
 @media only screen and (max-width: 992px){ 
 }
 @media only screen and (max-width: 768px){
+
+  .bio .blurb {
+    margin-left: 0px;
+  }
+
+  .bio img {
+  	display:none;
+  }
+
 }
+
 @media only screen and (max-width: 480px){
   #logo-wrapper img {
     width: 250px;
@@ -92,6 +103,5 @@ section a {
   .title {
 	font-size: 2.0rem;
 	text-align: center;
-  }
-  
+  }  
 }
