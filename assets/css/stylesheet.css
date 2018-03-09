@@ -54,8 +54,9 @@ section a {
 }
 .bio img {
 	float: left;
-	width: 200px;
-	height: 200px;
+	/*width: 200px;*/
+	/*height: 200px;*/
+	max-width: 200px;
 	margin-right: 20px;
 	margin-bottom: 10px;
 }
@@ -64,7 +65,18 @@ section a {
 }
 #logo img {
 	width: 300px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
+  .title {
+	font-size: 2.0rem;
+	text-align: center;
+  }
+  .img-fluid {
+  width: 100%;
+  height: auto;
+}
+
 
 /* @TOM - if you're going to add any css. put it ABOVE these media queries. These have to happen last */
 @media only screen and (max-width: 1280px){
@@ -74,7 +86,12 @@ section a {
 @media only screen and (max-width: 768px){
 }
 @media only screen and (max-width: 480px){
-  #logo img {
+  #logo-wrapper img {
     width: 250px;
   }
+  .title {
+	font-size: 2.0rem;
+	text-align: center;
+  }
+  
 }
